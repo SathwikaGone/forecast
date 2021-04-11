@@ -109,7 +109,9 @@ export default function Forms() {
         </button>
       </form>
       <div className="cardList">
-        {data && !hasError && data.map((item) => <Card data={item} />)}
+        {data &&
+          !hasError &&
+          data.map((item, index) => <Card data={item} key={index} />)}
       </div>
     </div>
   );

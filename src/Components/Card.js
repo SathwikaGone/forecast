@@ -8,17 +8,17 @@ export default function Card({ data }) {
       <div className="card-body">
         <img
           src={data.icon}
-          class="card-img-top"
+          className="card-img-top"
           style={{ width: "150px" }}
           alt="weather"
         />
         <div className="displayRows">
-          <p>
+          <p className="card-text">
             <strong>Temperature</strong> {data.temperature}
             {"\u00B0"}
             {data.temperatureUnit}
           </p>
-          <p class="card-text">
+          <p className="card-text">
             <strong>Detailed forecast:</strong> {data.detailedForecast}
           </p>
         </div>

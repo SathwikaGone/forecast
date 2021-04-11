@@ -21,6 +21,7 @@
   align-items: flex-start;
   margin: 10px;
 }
+
 .cardList {
   display: flex;
 }
@@ -48,8 +49,6 @@
 .alert {
   width: 30%;
   margin: 30px auto;
-  border-color: red;
-  color: white;
 }
 
 @keyframes fadeIn {
